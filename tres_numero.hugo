@@ -1,4 +1,5 @@
 Escribir un algoritmo que lea tres números y los escriba en forma ascendente.
+
 Inicio
     Entero n1, n2, n3
     Leer n1, n2, n3
