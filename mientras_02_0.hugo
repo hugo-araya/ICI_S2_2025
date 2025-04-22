@@ -1,0 +1,23 @@
+Leer 20 números e imprimir cuantos son  positivos, cuantos negativos y cuantos neutros.
+
+Inicio
+    Entero numero, positivo, negativo, neutro, i
+    positivo = 0
+    negativo = 0
+    neutro = 0
+    i = 0
+    Mientras i < 20
+        Leer numero
+        Si numero > 0 Entonces
+            positivo = positivo + 1
+        Fin Si
+        Si numero < 0 Entonces
+            negativo = negativo + 1
+        Fin Si
+        Si numero == 0 Entonces
+            neutro = neutro + 1
+        Fin Si
+        i = i + 1
+    Fin Mientras
+    Escribir positivo, negativo, neutro
+Fin

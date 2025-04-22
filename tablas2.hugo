@@ -1,0 +1,14 @@
+Inicio
+    Entero multiplicando, multiplicador, producto
+    multiplicando = 1
+    mientras multiplicando <= 12
+        multiplicador = 1
+        mientras multiplicador <= 10
+            producto = multiplicando * multiplicador
+            escribir multiplicando, "*", multiplicador, "=", producto
+            multiplicador = multiplicador + 1
+        fin mientras
+        multiplicando = multiplicando + 1
+    fin mientras
+fin
+

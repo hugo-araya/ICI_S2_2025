@@ -1,0 +1,21 @@
+Simular el comportamiento de un reloj digital, escribiendo la hora, 
+minutos y segundos de un día desde las 0:00:00 horas 
+hasta las 23:59:59 horas 
+
+Inicio
+    Entero hora, minuto, segundo
+    hora = 0
+    Mientras hora < 24
+        minuto = 0
+        Mientras minuto < 60
+            segundo = 0
+            Mientras segundo < 60
+                Escribir hora, ":", minuto, ":", segundo
+                segundo++
+            Fin Mientras
+            minuto++
+        Fin Mientras
+        hora++
+    Fin Mientras
+Fin
+

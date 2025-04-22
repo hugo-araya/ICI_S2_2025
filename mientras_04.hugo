@@ -1,0 +1,28 @@
+Suponga que se tiene un conjunto de notas finales de un grupo de 40 alumnos. 
+Escribir un algoritmo para calcule el promedio de las notas y la calificación 
+final más baja de todo el grupo. 
+
+Inicio
+    Real nota, promedio, baja, suma, alta
+    Entero i
+    i = 0
+    suma = 0
+    baja = 8
+    alta = 0
+    Mientras i < 40
+        Leer nota
+        suma = suma + nota
+        Si nota < baja Entonces
+            baja = nota
+        Fin si
+        Si nota > alta Entonces
+            alta = nota
+        Fin si
+        i = i + 1
+    Fin Mientras
+    promedio = suma / 40
+    Escribir promedio, baja, alta
+Fin
+
+
+

@@ -1,0 +1,14 @@
+Leer 10 números e imprimir solamente los números positivos 
+
+Inicio
+    Entero numero
+    Entero i
+    i = 0
+    Mientras i < 10
+        Leer numero
+        Si numero > 0 Entonces
+            Escribir numero
+        Fin Si
+        i = i + 1 (se abrevia i++)
+    Fin Mientras
+Fin

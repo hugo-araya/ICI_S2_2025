@@ -1,0 +1,11 @@
+Inicio
+    Entero multiplicando, multiplicador, producto
+    leer multiplicando
+    multiplicador = 1
+    mientras multiplicador <= 10
+        producto = multiplicando * multiplicador
+        escribir multiplicando, "*", multiplicador, "=", producto
+        multiplicador = multiplicador + 1
+    fin mientras
+fin
+

@@ -1,0 +1,26 @@
+Escribir un algoritmo que lea tres números y los escriba en forma ascendente.
+Inicio
+    Entero n1, n2, n3
+    Leer n1, n2, n3
+    Si n1 < n2 Entonces 
+        Si n1 < n3 Entonces
+            Si n2 < n3 Entonces
+                Escribir n1, n2, n3
+            Si no
+                Escribir n1, n3, n2
+            Fin si
+        Si no
+            Escribir n3, n1, n2
+        Fin Si
+    Si no
+        Si n2 < n3 Entonces
+            Si n1 < n3 Entonces
+                Escribir n2, n1, n3
+            Si no
+                Escribir n2, n3, n1
+            Fin si
+        Si no
+            Escribir n3, n2, n1
+        Fin Si
+    Fin si
+Fin
