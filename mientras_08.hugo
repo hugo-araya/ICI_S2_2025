@@ -1,0 +1,18 @@
+Una persona desea invertir su dinero en un banco, 
+el cual le otorga un 2% de interés. ¿¿Cual será la cantidad 
+de dinero que esta persona tendrá al cabo de un año si la 
+ganancia de cada mes es reinvertida?. 
+
+Inicio
+    Entero capital_inicial, meses
+    Real capital_final
+    Leer capital_inicial
+    capital_final = capital_inicial
+    meses = 0
+    Mientras meses < 12
+        capital_final = capital_final * 1.02
+        meses = meses + 1
+    Fin Mientras
+    Escribir capital_final
+Fin
+

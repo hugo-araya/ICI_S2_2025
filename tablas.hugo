@@ -1,3 +1,7 @@
+Calcular y escribir la tabla de multiplicar de un numero cualquiera. 
+Escribir el multiplicando, el multiplicador y el producto. 
+
+
 Inicio
     Entero multiplicando, multiplicador, producto
     multiplicando = 9

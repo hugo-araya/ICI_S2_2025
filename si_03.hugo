@@ -1,0 +1,21 @@
+Escribir un algoritmo que escriba el nombre de un articulo, 
+clave, precio original y su precio con descuento. 
+El descuento lo hace en base a la clave, si la clave es 01 
+el descuento es del 10% y si la clave es 02 el descuento es del 20% 
+(solo existen dos claves).
+
+Inicio
+    String nombre, clave
+    Entero precio_original
+    Real precio_descuento
+    Leer nombre
+    Leer clave
+    Leer precio_original
+    Si clave == "01" Entonces
+        precio_descuento = precio_original * 0.9
+    Si no
+        precio_descuento = precio_original * 0.8
+    Fin Si
+    Escribir nombre, clave, precio_original, precio_descuento
+Fin
+

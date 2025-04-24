@@ -1,0 +1,40 @@
+Se desea obtener el promedio de g grupos que están en un 
+mismo año escolar; si cada grupo puede tener n alumnos, 
+cada alumno puede tener m materias y que en todas las materias 
+se promedian tres notas para obtener el promedio de la materia. 
+Lo que se desea desplegar es el promedio de los grupos, el promedio 
+de cada grupo y el promedio de cada alumno. 
+
+Inicio
+    Entero g, n, m, ig, in, im
+    Real p_todos_grupos, p_grupo, p_alumno
+    Real suma, nota1, nota2 , nota3
+    ig = 0
+    p_todos_grupos = 0
+    Mientras ig < g
+        Leer n
+        in = 0
+        p_grupo = 0
+        Mientras in < n
+            Leer m
+            im = 0
+            p_alumno = 0
+            Mientras im < m
+                Leer nota1, nota2, nota3
+                suma = nota1 + nota2 + nota3
+                p_alumno = suma / 3
+                Escribir "Promedio Estudiante: ", p_alumno
+                im = im + 1
+            Fin Mientras
+            p_grupo = p_grupo + p_alumno
+            in = in + 1
+        Fin Mientras
+        p_grupo = p_grupo / n
+        Escribir "Promedio grupo: ", p_grupo
+        p_todos_grupos = p_todos_grupo + p_grupo
+        ig = ig + 1
+    Fin Mientras
+    p_todos_grupos = p_todos_grupos / g
+    Escribir "Promedio todos los grupos: ", p_todos_grupos
+Fin     
+    

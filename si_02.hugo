@@ -1,0 +1,17 @@
+Una persona enferma, que pesa 70 kg, se encuentra en reposo 
+y desea saber cuantas calorías consume su cuerpo durante todo 
+el tiempo que realice una misma actividad. 
+Las actividades que tiene permitido realizar son únicamente 
+dormir o estar sentado en reposo. Los datos que tiene son que 
+estando dormido consume 1.08 calorías por minuto y estando sentado 
+en reposo consume 1.66 calorías por minuto.
+
+Inicio
+    Entero minutos_dormido, minutos_sentado
+    Real calorias_dormido, calorias_sentado
+    Leer minutos_dormido
+    Leer minutos_sentado
+    calorias_dormido = minutos_dormido * 1.08
+    calorias_sentado = minutos_sentado * 1.66
+    Escribir calorias_dormido, calorias_sentado
+Fin

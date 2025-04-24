@@ -1,0 +1,27 @@
+Una compañía de seguros tiene contratados a n vendedores. 
+Cada uno hace tres ventas a la semana. Su política de remuneraciones es que un vendedor 
+recibe un sueldo base, y un 10% extra por comisiones de sus ventas. 
+El gerente de su compañía desea saber cuanto dinero obtendrá en la semana cada vendedor 
+por concepto de comisiones por las tres ventas realizadas, 
+y cual será su remuneración final, tomando en cuenta su sueldo base y sus comisiones.
+
+Inicio
+    Entero n, i, base, venta1, venta2, venta3
+    Leer n
+    i = 0
+    Mientras i < n
+        Leer base
+        Leer venta1
+        Leer venta2
+        Leer venta3
+        comision = (venta1 + venta2 + venta3) * 0.1
+        sueldo = base + comision
+        Escribir comision, sueldo
+        i = i + 1
+    Fin Mientras
+Fin
+
+
+
+
+
