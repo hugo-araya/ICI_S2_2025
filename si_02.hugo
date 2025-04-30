@@ -15,3 +15,5 @@ Inicio
     calorias_sentado = minutos_sentado * 1.66
     Escribir calorias_dormido, calorias_sentado
 Fin
+
+
