@@ -1,0 +1,17 @@
+Inicio
+    Real cm, ken_cm, ken_en_cm, ken_shakus, shakus
+    Entero ken_int
+    Leer cm
+    ken_cm = 6 * 30.3
+    ken_en_cm = cm / ken_cm
+    ken_int = ken_en_cm
+    ken_shakus = ken_en_cm - ken_int
+    shakus = ken_shakus * 6
+    Escribir cm, "son ", ken_int, "ken(s) y",shakus, "shaku(s)"
+Fin
+
+ken_cm = 181.8
+ken_en_cm = 9876/181.8 = 54.32343234
+ken_int = 54
+ken_shakus = .32343234
+shakus = .32343234 * 6 = 1.94.....

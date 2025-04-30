@@ -1,0 +1,23 @@
+Inicio
+    Entero N, numero, mayores, negativos, positivos, i
+    Leer N
+    i = 0
+    mayores = 0
+    negativos = 0
+    positivos = 0
+    Mientras i < N
+        Leer numero
+        Si numero > N/2 Entonces
+            mayores = mayores + 1
+        Finsi
+        Si numero < 0 Entonces
+            negativos = negativos + 1
+        Si no
+            Si numero != 0 Entonces
+                positivos = positivos + numero
+            Fin si
+        Fin si
+        i = i + 1
+    Fin Mientras
+    escribir mayores, negativos, positivos
+Fin    
